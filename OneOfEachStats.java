@@ -10,7 +10,7 @@ public class OneOfEachStats {
         int count4=0;
         int countAllChild=0;
         double average;
-        int seed=0;
+        int seed=Integer.parseInt(args[1]);
         Random rnd=new Random(seed);
 
         for(int i=0;i<N;i++)
@@ -41,7 +41,7 @@ public class OneOfEachStats {
             else {count2++;}
 
         }
-        average=countAllChild/N;
+        average= (double)countAllChild/N;
         System.out.println("Average: "+average+" to get at least one of each gender.");
         System.out.println("Number of families with 2 children: "+count2);
         System.out.println("Number of families with 3 children: "+count3);
