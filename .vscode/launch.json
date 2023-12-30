@@ -9,7 +9,7 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "args": "10 7"
+            "args": "abcgfd"
         },
         {
             "type": "java",

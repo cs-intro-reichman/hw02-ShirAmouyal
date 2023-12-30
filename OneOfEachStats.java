@@ -49,13 +49,13 @@ public class OneOfEachStats {
         if(count2>count3&&count2>count4)
         {  
          
-         System.out.println("The most common number of children is 2");
+         System.out.println("The most common number of children is 2.");
         
         
         }
         else if(count3>count2 && count3>count4)
         {
-         System.out.println("The most common number of children is 3");
+         System.out.println("The most common number of children is 3.");
         }
         else 
         {

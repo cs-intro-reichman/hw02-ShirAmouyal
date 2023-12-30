@@ -7,11 +7,11 @@ public class Reverse {
     int leng=str.length();
     if(leng%2==0)
     {
-    middle= str.charAt(leng/2+1); 
+    middle= str.charAt(leng/2-1); 
     }
     else
     {
-        middle= str.charAt(leng/2); 
+    middle= str.charAt(leng/2); 
     }  
     for (int i=leng-1; i>=0;i--)
     {
