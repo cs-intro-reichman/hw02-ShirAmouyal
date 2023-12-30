@@ -5,7 +5,14 @@ public class Reverse {
     String reverse="";
     char middle;
     int leng=str.length();
-     middle= str.charAt(leng/2+1);   
+    if(leng%2==0)
+    {
+    middle= str.charAt(leng/2+1); 
+    }
+    else
+    {
+        middle= str.charAt(leng/2); 
+    }  
     for (int i=leng-1; i>=0;i--)
     {
      reverse+=str.charAt(i);
