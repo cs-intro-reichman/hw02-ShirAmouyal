@@ -13,17 +13,19 @@ public class OneOfEach {
          count++;
         if(child<0.5) //boy
         {
+            //to many blank lines
             
             boy=true;
         }
         else //girl
         {
-           
+           //to many blank lines
+            
            girl=true;
         }
         }
          System.out.println("You made it... and you now have "+count+" children.");
         
-            
+        /* Not good indentation, important to attend to it*/    
     }
 }
